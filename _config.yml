@@ -1,0 +1,87 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: nunogand.github.io
+email: nunogand@gmail.com
+description: O meu caderno de apontamentos.
+url: https://nunogand.github.io # the base hostname & protocol for your site
+keywords: ["PowerBi", "Raspberri Pi", "GPS"]
+author: Nuno Rodrigues
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Lisbon
+locale:            pt-pt
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+sass:
+  style: compressed    
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: nunogand
+  avatar: logo_main.png
+  job: "...já fiz muitas coisas"
+  bio: "Apontamentos e recortes dispersos; nunca se sabe quando dão jeito."
+  email: nunogand@gmail.com
+  disqus-shortname: 
+  twitter: nunogand #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: nunogand #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: nunogand #username
+  xing: #username
+  instagram: nunogand #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: nunogand #username
+  codepen: #username
+  telegram: #username
+#
+###################################
+# Jekyll seo
+####################################
+#
+plugins:
+  - jekyll-seo-tag
+lang: pt_PT
+future: true
