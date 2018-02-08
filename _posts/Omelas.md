@@ -1,4 +1,14 @@
-
+---
+layout: post
+title:"The ones who walk away from Omelas"
+excerpt: "With a clamor of bells that set the swallows soaring, the Festival of Summer came to the city Omelas,"
+date:   2018-02-01 08:10:10
+categories: [Sci-Fi]
+tags: [Sci-Fi]
+comments: false
+image:
+  feature:
+---
 
 The Ones Who Walk Away From Omelas
 
