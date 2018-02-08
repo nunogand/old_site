@@ -21,6 +21,7 @@ markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
 permalink:         /articles/:year-:month/:title
+future: true
 
 kramdown:
   input: GFM
