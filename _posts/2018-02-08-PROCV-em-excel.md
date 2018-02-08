@@ -51,9 +51,9 @@ No caso ambas as tabelas têm o mesmo tamanho o que facilita o exemplo mas obvia
 Como saber quais dos utentes da tabela 1 possuem o diagnóstico X da tabela 2?
 
 Inserimos a seguinte fórmula:
-
+'''
 =PROCV(A1;$D$1:$E$5;2;0)
-
+'''
 O resultado é este:
 
 | N_utente1 | Cat_A | Cat_B | N_utente2 | Cat_A |      |
@@ -67,11 +67,13 @@ O resultado é este:
 Logo, o utente 1239 é o único utente da nossa lista 1 (que pode incluir todos os utentes com um outro qualquer diagnóstico) e que apresenta o Diagnóstico X.
 
 O que faz a função:
+'''
 =PROCV(A1;$D$1:$E$5;2;0)
-=PROCV - chama a função (Duh....)
-A1 - Indica qual o valor que queremos encontrar na lista 2
-$D$1:$E$5 - O intervalo onde está localizada a lista 2 (toda a tabela, podemos inclusivé não a colar e referenciar a partir de outra página ou mesmo ficheiro)
-2 - a coluna da tabela 2 onde está localizado o dado que queremos obter.
-0 - Difícil de explicar mas, coloquemos este valor a zero (ou FALSO)
+'''
+**=PROCV** - chama a função (Duh....)
+**A1** - Indica qual o valor que queremos encontrar na lista 2
+**$D$1:$E$5** - O intervalo onde está localizada a lista 2 (toda a tabela, podemos inclusivé não a colar e referenciar a partir de outra página ou mesmo ficheiro) - notar a utilizaçaõ do $
+**2** - a coluna da tabela 2 onde está localizado o dado que queremos obter.
+**0** - Difícil de explicar mas, coloquemos este valor a zero (ou FALSO)
 
-Limitações: O valor a obter tem de estar sempre à direita do valor pesquisado, no caso, a coluna com a identificação do utente deve estar antes da coluna com o valor que pretendemos obter. Isto deve-se à forma como o PROCV funciona, sempre da esquerda para a direita em cada linha. Por isso, se quisermos comparar diagnósticos e obter identificações, as colunas devem ser trocadas de ordem.
+**Limitações:** O valor a obter tem de estar sempre à direita do valor pesquisado, no caso, a coluna com a identificação do utente deve estar antes da coluna com o valor que pretendemos obter. Isto deve-se à forma como o PROCV funciona, sempre da esquerda para a direita em cada linha. Por isso, se quisermos comparar diagnósticos e obter identificações, as colunas devem ser trocadas de ordem.
