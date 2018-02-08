@@ -4,7 +4,7 @@ title: The ones who walk away from Omelas
 excerpt: >-
   With a clamor of bells that set the swallows soaring, the Festival of Summer
   came to the city Omelas,
-date: "\_ 2018-02-01 08:10:10"
+date: "2018-02-01 08:10:10"
 categories:
   - Sci-Fi
 tags:
