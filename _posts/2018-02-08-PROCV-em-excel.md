@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Utilização da função PROCV
-excerpt: "Exemplo prático da utilização da função PROCV com duas listagens de utentes"
-date:   2018-02-08 10:10:10
-categories: [Excel]
-tags: [Excel]
+excerpt: Exemplo prático da utilização da função PROCV com duas listagens de utentes
+date: {}
+categories:
+  - Excel
+tags:
+  - Excel
 comments: false
 image:
   feature: header_excel.png
+published: true
 ---
 Imaginemos duas listas de utentes, A e B. A primeira pode ser por exemplo a listagem de utente com o Diagnóstico A e a segunda com o diagnóstico B.
 Como obter os elementos em A que possuam a patologia B?
@@ -70,3 +73,5 @@ A1 - Indica qual o valor que queremos encontrar na lista 2
 $D$1:$E$5 - O intervalo onde está localizada a lista 2 (toda a tabela, podemos inclusivé não a colar e referenciar a partir de outra página ou mesmo ficheiro)
 2 - a coluna da tabela 2 onde está localizado o dado que queremos obter.
 0 - Difícil de explicar mas, coloquemos este valor a zero (ou FALSO)
+
+Limitações: O valor a obter tem de estar sempre à direita do valor pesquisado, no caso, a coluna com a identificação do utente deve estar antes da coluna com o valor que pretendemos obter. Isto deve-se à forma como o PROCV funciona, sempre da esquerda para a direita em cada linha. Por isso, se quisermos comparar diagnósticos e obter identificações, as colunas devem ser trocadas de ordem.
