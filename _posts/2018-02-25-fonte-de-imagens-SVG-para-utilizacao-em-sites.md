@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Elementos que devem estar em &ltHEAD&gt"
-excerpt: "Uma lista, apanhada daqui e dali, de tudo o que pode figurar dentro da secção &ltHEAD&gt dos sites"
+title: "Fontes gratuitas de imagens para utilização em sites"
+excerpt: "Uma lista, em constante actualização, apanhada daqui e dali, de alguns recursos interessantes"
 categories: [Webdesign]
 tags: [HTML, código]
 comments: false
