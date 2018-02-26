@@ -8,5 +8,5 @@ comments: false
 image:
   feature: header_webdesign.jpg
 ---
-# [undraw.co]
+# <undraw.co>
 Site contendo inúmeras imagens em formato SVG prontas para download. E ainda por cima é possível alterar on the fly a respectiva cor base.
