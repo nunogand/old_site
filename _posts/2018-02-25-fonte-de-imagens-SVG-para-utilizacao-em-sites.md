@@ -14,7 +14,8 @@ Site contendo inúmeras imagens em formato SVG prontas para download. E ainda po
 
 # Fotografia
 [https://unsplash.com](https://unsplash.com/)  
-[https://www.pexels.com/](https://www.pexels.com/)
+[https://www.pexels.com](https://www.pexels.com/)
 
 # Color Picker
-[Coolors.co] (https://coolors.co/)
+[Coolors.co](https://coolors.co/)  
+[https://coolors.co](Coolors.co)
