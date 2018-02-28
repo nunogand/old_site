@@ -17,4 +17,4 @@ Site contendo inúmeras imagens em formato SVG prontas para download. E ainda po
 [https://www.pexels.com/](https://www.pexels.com/)
 
 # Color Picker
-[https://coolors.co/] (Coolors.co)
+[Coolors.co] (https://coolors.co/)
