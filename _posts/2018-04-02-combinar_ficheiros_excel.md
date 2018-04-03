@@ -14,7 +14,7 @@ published: true
 ---
 Imaginemos que temos um grande número de ficheiros excel e que, por um motivo ou outro, queremos combinar num só. Este script permite "transformar" cada ficheiro individual numa folha do ficheiro "master". Ou algo assim... em vez de termos vários ficheiros, ficamos com um único ficheiro com várias folhas.
 
-{% highlight Visual Basic %}
+{% highlight vb %}
 
 Sub mergeFiles()
     'Merges all files in a folder to a main file.
