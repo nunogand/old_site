@@ -1,0 +1,33 @@
+---
+layout: post
+title: "PowerBI - Listagem de Measures utilizadas para o estudo demográfico da lista de utentes"
+excerpt: "Listagem de Measures utilizadas para o estudo demográfico da lista de utentes."
+categories: [PowerBi]
+tags: [PowerBi, código]
+comments: false
+image:
+  feature: header_powerbi.jpg
+---
+
+Aquando do estudo da lista:
+
+Listagem das Measures usadas:
+
+Indice de Burgdorfer
+```SQL
+Burgdorfer = IF(([População 5 a 14 anos]/[Utentes total]*100)-2,5>[População 45 a 64 anos]/Utentes[Utentes total]*100;"População Jovem";IF(([População 5 a 14 anos]/[Utentes total]*100)<[População 45 a 64 anos]/Utentes[Utentes total]*100+2,5;"População Velha";"População Madura"))
+```
+
+Indice de Friz
+```SQL
+Friz = if([Friz_cal]<60;"População Envelhecida";IF ([Friz_cal]<160;"População madura";"População jovem"))
+```
+De notar que faz a chamada a ```[Friz_cal]```... pura preguiça
+```SQL
+Friz_cal = CALCULATE([População 0 a 19 anos]/[População 30 a 49 anos]*100)
+```
+
+Grau de Envelhecimento de Sauvy
+'''SQL
+Grau de Envelhecimento de Sauvy = IF([População > 60 anos]/[População 0 a 19 anos]*100>30;"População velha";"N/A")
+'''
