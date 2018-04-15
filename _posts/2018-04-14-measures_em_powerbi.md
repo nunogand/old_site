@@ -15,13 +15,22 @@ Listagem das Measures usadas:
 
 Indice de Burgdorfer
 ```SQL
-Burgdorfer = IF(([População 5 a 14 anos]/[Utentes total]*100)-2,5>[População 45 a 64 anos]/Utentes[Utentes total]*100;"População Jovem";IF(([População 5 a 14 anos]/[Utentes total]*100)<[População 45 a 64 anos]/Utentes[Utentes total]*100+2,5;"População Velha";"População Madura"))
+Burgdorfer = 
+  IF(([População 5 a 14 anos] / [Utentes total] * 100) - 2, 5 > [População 45 a 64 anos] / Utentes[Utentes total] * 100;
+    "População Jovem"; 
+    IF(([População 5 a 14 anos] / [Utentes total] * 100) < [População 45 a 64 anos] / Utentes[Utentes total] * 100 + 2, 5;
+        "População Velha";
+        "População Madura"))
 ```
 
 
 Indice de Sundbarg
 ```SQL
-Sundbarg = IF([População 0 a 14 anos]/[População 15 a 49 anos]*100>[População > 50 anos]/[População 15 a 49 anos]*100;"População progressiva";IF([População 0 a 14 anos]/[População 15 a 49 anos]*100<[População > 50 anos]/[População 15 a 49 anos]*100;"População regressiva";"População estacionária"))
+Sundbarg = 
+  IF([População 0 a 14 anos]/[População 15 a 49 anos]*100>[População > 50 anos]/[População 15 a 49 anos]*100;"População progressiva";
+  IF([População 0 a 14 anos]/[População 15 a 49 anos]*100<[População > 50 anos]/[População 15 a 49 anos]*100;
+        "População regressiva";
+        "População estacionária"))
 ```
 
 Indice de Friz
@@ -34,9 +43,9 @@ Friz_cal = CALCULATE([População 0 a 19 anos]/[População 30 a 49 anos]*100)
 ```
 
 Grau de Envelhecimento de Sauvy
-'''SQL
+```SQL
 Grau de Envelhecimento de Sauvy = IF([População > 60 anos]/[População 0 a 19 anos]*100>30;"População velha";"N/A")
-'''
+```
 
 Indice de crianças (0-4) por mulher em idade fértil
 ```SQL
@@ -60,7 +69,8 @@ As idades:
 
 Mulheres em idade fértil
 ```SQL
-Mulheres em Idade fértil (15-49) = CALCULATE(COUNT (Utentes[Utente]);FILTER(Utentes;Utentes[Sexo]="Mulher" && Utentes[Idade] < 50 && Utentes[Idade] > 14))
+Mulheres em Idade fértil (15-49) = 
+  CALCULATE(COUNT (Utentes[Utente]);FILTER(Utentes;Utentes[Sexo]="Mulher" && Utentes[Idade] < 50 && Utentes[Idade] > 14))
 ```
 
 População entre 15 e 19 anos
