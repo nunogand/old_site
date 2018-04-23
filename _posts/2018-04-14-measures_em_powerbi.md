@@ -8,6 +8,11 @@ comments: false
 image:
   feature: header_powerbi.jpg
 ---
+Update 23-04-2018
+Provavelmente está tudo errado; embora eu tenha copiado e adaptado o código inicial de alguma fonte credível, o facto é que à medida que conheci melhor o DAX percebi que a função CALCULATE provavelmente está a estragar-me as contas ao remover o contexto dos filtros externos... a measure assim calculada não está a responder ao slicer "Médicos".
+Terei de testar mas faz sentido.
+
+----------------------------------------------
 
 Aquando do estudo da lista:
 
