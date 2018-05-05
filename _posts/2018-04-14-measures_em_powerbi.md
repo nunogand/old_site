@@ -15,13 +15,26 @@ Listagem das Measures usadas:
 
 Indice de Burgdorfer
 ```SQL
-Burgdorfer = 
-  IF(([População 5 a 14 anos] / [Utentes total] * 100) - 2, 5 > [População 45 a 64 anos] / Utentes[Utentes total] * 100;
-    "População Jovem"; 
-    IF(([População 5 a 14 anos] / [Utentes total] * 100) < [População 45 a 64 anos] / Utentes[Utentes total] * 100 + 2, 5;
+Burgdorfer =
+IF (
+    ( [População 5 a 14 anos] / [Utentes total]
+        * 100 )
+        - 2,5
+        > [População 45 a 64 anos] / Utentes[Utentes total]
+        * 100;
+    "População Jovem";
+    IF (
+        ( [População 5 a 14 anos] / [Utentes total]
+            * 100 )
+            < [População 45 a 64 anos] / Utentes[Utentes total]
+            * 100
+            + 2,5;
         "População Velha";
-        "População Madura"))
+        "População Madura"
+    )
+)
 ```
+Burgdorfer&nbsp;=<br><span class="Keyword" style="color:#0070FF">IF</span><span class="Parenthesis" style="color:#969696">&nbsp;(</span><br><span class="indent4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="Parenthesis" style="color:#969696">(</span>&nbsp;[População&nbsp;5&nbsp;a&nbsp;14&nbsp;anos]&nbsp;/&nbsp;[Utentes&nbsp;total]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;<span class="Number" style="color:#EE7F18">100</span>&nbsp;<span class="Parenthesis" style="color:#969696">)</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<span class="Number" style="color:#EE7F18">2,5</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;[População&nbsp;45&nbsp;a&nbsp;64&nbsp;anos]&nbsp;/&nbsp;Utentes[Utentes&nbsp;total]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;<span class="Number" style="color:#EE7F18">100</span>;<br><span class="indent4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="StringLiteral" style="color:#D93124">"População&nbsp;Jovem"</span>;<br><span class="indent4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="Keyword" style="color:#0070FF">IF</span><span class="Parenthesis" style="color:#969696">&nbsp;(</span><br><span class="indent8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="Parenthesis" style="color:#969696">(</span>&nbsp;[População&nbsp;5&nbsp;a&nbsp;14&nbsp;anos]&nbsp;/&nbsp;[Utentes&nbsp;total]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;<span class="Number" style="color:#EE7F18">100</span>&nbsp;<span class="Parenthesis" style="color:#969696">)</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;&nbsp;[População&nbsp;45&nbsp;a&nbsp;64&nbsp;anos]&nbsp;/&nbsp;Utentes[Utentes&nbsp;total]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;<span class="Number" style="color:#EE7F18">100</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;<span class="Number" style="color:#EE7F18">2,5</span>;<br><span class="indent8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="StringLiteral" style="color:#D93124">"População&nbsp;Velha"</span>;<br><span class="indent8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="StringLiteral" style="color:#D93124">"População&nbsp;Madura"</span><br><span class="indent4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="Parenthesis" style="color:#969696">)</span><br><span class="Parenthesis" style="color:#969696">)</span><br>
 
 
 Indice de Sundbarg
