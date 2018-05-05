@@ -39,40 +39,70 @@ Burgdorfer&nbsp;=<br><span class="Keyword" style="color:#0070FF">IF</span><span 
 
 Indice de Sundbarg
 ```SQL
-Sundbarg = 
-  IF([População 0 a 14 anos]/[População 15 a 49 anos]*100>[População > 50 anos]/[População 15 a 49 anos]*100;"População progressiva";
-  IF([População 0 a 14 anos]/[População 15 a 49 anos]*100<[População > 50 anos]/[População 15 a 49 anos]*100;
+Sundbarg =
+IF (
+    [População 0 a 14 anos] / [População 15 a 49 anos]
+        * 100
+        > [População > 50 anos] / [População 15 a 49 anos]
+        * 100;
+    "População progressiva";
+    IF (
+        [População 0 a 14 anos] / [População 15 a 49 anos]
+            * 100
+            < [População > 50 anos] / [População 15 a 49 anos]
+            * 100;
         "População regressiva";
-        "População estacionária"))
+        "População estacionária"
+    )
+)
 ```
 
 Indice de Friz
 ```SQL
-Friz = if([Friz_cal]<60;"População Envelhecida";IF ([Friz_cal]<160;"População madura";"População jovem"))
+Friz =
+IF (
+    [Friz_cal] < 60;
+    "População Envelhecida";
+    IF ( [Friz_cal] < 160; "População madura"; "População jovem" )
+)
 ```
 De notar que faz a chamada a ```[Friz_cal]```... pura preguiça
 ```SQL
-Friz_cal = CALCULATE([População 0 a 19 anos]/[População 30 a 49 anos]*100)
+Friz_cal =
+CALCULATE ( [População 0 a 19 anos] / [População 30 a 49 anos] * 100 )
 ```
 
 Grau de Envelhecimento de Sauvy
 ```SQL
-Grau de Envelhecimento de Sauvy = IF([População > 60 anos]/[População 0 a 19 anos]*100>30;"População velha";"N/A")
+Grau de Envelhecimento de Sauvy =
+IF (
+    [População > 60 anos] / [População 0 a 19 anos]
+        * 100
+        > 30;
+    "População velha";
+    "N/A"
+)
 ```
 
 Indice de crianças (0-4) por mulher em idade fértil
 ```SQL
-Indice de crianças (0-4) por mulher em idade fértil = [População 0 a 4 anos]/[Mulheres em Idade fértil (15-49)]
+Indice de crianças (0-4) por mulher em idade fértil =
+[População 0 a 4 anos] / [Mulheres em Idade fértil (15-49)]
 ```
 
 Indice de dependencia de idosos
 ```SQL
-Indice de dependencia de idosos = [População > 65 anos]/[População 15 a 64 anos]*100
+Indice de dependencia de idosos =
+[População > 65 anos] / [População 15 a 64 anos]
+    * 100
 ```
 
 Indice de Dependência Total
 ```SQL
-Indice de Dependência Total = ([População 0 a 14 anos]+[População > 65 anos])/[População 15 a 64 anos]*100
+Indice de Dependência Total =
+ ( [População 0 a 14 anos] + [População > 65 anos] )
+    / [População 15 a 64 anos]
+    * 100
 ```
 
 ...no fundo, é ir repetindo sempre a mesma lógica
@@ -82,18 +112,41 @@ As idades:
 
 Mulheres em idade fértil
 ```SQL
-Mulheres em Idade fértil (15-49) = 
-  CALCULATE(COUNT (Utentes[Utente]);FILTER(Utentes;Utentes[Sexo]="Mulher" && Utentes[Idade] < 50 && Utentes[Idade] > 14))
+Mulheres em Idade fértil (15-49) =
+CALCULATE (
+    COUNT ( Utentes[Utente] );
+    FILTER (
+        Utentes;
+        Utentes[Sexo] = "Mulher"
+            && Utentes[Idade] < 50
+            && Utentes[Idade] > 14
+    )
+)
 ```
 
 População entre 15 e 19 anos
 ```SQL
-População 15 a 19 anos = CALCULATE(COUNT(Utentes[Idade]);FILTER(Utentes;Utentes[Idade] > 14 && Utentes[Idade] < 20))
+População 15 a 19 anos =
+CALCULATE (
+    COUNT ( Utentes[Idade] );
+    FILTER (
+        Utentes;
+        Utentes[Idade] > 14
+            && Utentes[Idade] < 20
+    )
+)
 ```
 
 População com + de 65 anos
 ```SQL
-População > 65 anos = CALCULATE(COUNT(Utentes[Idade]);FILTER(Utentes;Utentes[Idade] > 64))
+População > 65 anos =
+CALCULATE (
+    COUNT ( Utentes[Idade] );
+    FILTER (
+        Utentes;
+        Utentes[Idade] > 64
+    )
+)
 ```
 ...and so on.
 
