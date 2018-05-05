@@ -10,13 +10,6 @@ url: https://nunogand.github.io # the base hostname & protocol for your site
 keywords: ["PowerBi", "Raspberri Pi", "GPS"]
 author: Nuno Rodrigues
 
-#
-###################################
-# Tema
-####################################
-#
-
-remote_theme: flexible-jekyll
 
 
 #
