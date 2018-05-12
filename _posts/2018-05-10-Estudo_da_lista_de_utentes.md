@@ -11,7 +11,7 @@ image:
 
 Estrutura base da pasta de ficheiros
 
-'''
+```
 Estudo da Lista
 ├── Utentes_dados
 |   ├── P01_01_L03_ Inscritos _ Dados dos Utentes
@@ -39,4 +39,4 @@ Estudo da Lista
 └── HbA1c
     ├── hba1c_MedicoA
     └── ...
-'''
+```
