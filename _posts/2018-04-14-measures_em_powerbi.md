@@ -13,9 +13,9 @@ Aquando do estudo da lista:
 
 Listagem das Measures usadas:
 
-Indice de Burgdorfer
+Indice de Burgdofer
 ```SQL
-Burgdorfer =
+Burgdofer =
 IF (
     ( [População 5 a 14 anos] / [Utentes total] * 100 ) - 2,5
         > [População 45 a 64 anos] / Utentes[Utentes total] * 100;
