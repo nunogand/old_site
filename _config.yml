@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: nunogand.github.io
+title: nunogand.com
 email: nunogand@gmail.com
 description: O meu caderno de apontamentos.
-url: https://nunogand.github.io # the base hostname & protocol for your site
+url: https://nunogand.com # the base hostname & protocol for your site
 keywords: ["PowerBi", "Raspberri Pi", "GPS"]
 author: Nuno Rodrigues
 
