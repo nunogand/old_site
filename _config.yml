@@ -10,8 +10,6 @@ url: https://nunogand.com # the base hostname & protocol for your site
 keywords: ["PowerBi", "Raspberri Pi", "GPS"]
 author: Nuno Rodrigues
 
-
-
 #
 ###################################
 # Jekyll configuration
@@ -86,5 +84,6 @@ owner:
 #
 plugins:
   - jekyll-seo-tag
+logo: logo_main.png
 lang: pt_PT
 future: true
