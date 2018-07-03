@@ -10,4 +10,4 @@ image:
 ---
 ![Configuração]("/img/Capturar_1.png")
 ![Configuração]({{"/img/Capturar_2.png"}})
-![Configuração]({{/img/Capturar_3.png)}}
+![Configuração]({{ site.url }}/img/Capturar_3.png)
