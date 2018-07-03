@@ -8,6 +8,6 @@ comments: false
 image:
   feature: header_powerbi.jpg
 ---
-![Configuração] ("/img/Capturar_1.png")
+![Configuração1] ("/img/Capturar_1.png")
 ![Configuração] ({{"/img/Capturar_2.png"}})
 ![Configuração] ({{ site.url }}/img/Capturar_3.png)
