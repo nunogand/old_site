@@ -8,7 +8,13 @@ comments: false
 image:
   feature: header_powerbi.jpg
 ---
-![Configuração2]({{ site.url }}/img/Capturar_1.PNG)
-![Configuração] ({{Capturar_2.PNG}})
-![Configuração] ("Capturar_3.PNG")
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+Em primeiro lugar é necessário configurar o MIM@UF para exportar os relatórios excel no formato correcto. 
+Em primeiro lugar abrir o menu "Preferências"
+![Configuração]({{ site.url }}/img/Capturar_1.PNG)
+
+De seguida a opção "Exportar Relatórios"
+![Configuração]({{ site.url }}/img/Capturar_2.PNG)
+
+Finalmente selecccionar a versão Excel como 2007 ou mais recente
+![Configuração]({{ site.url }}/img/Capturar_3.PNG)
+
