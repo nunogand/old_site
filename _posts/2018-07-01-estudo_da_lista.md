@@ -8,7 +8,7 @@ comments: false
 image:
   feature: header_powerbi.jpg
 ---
-Em primeiro lugar é necessário configurar o MIM@UF para exportar os relatórios excel no formato correcto. 
+Em primeiro lugar é necessário configurar o MIM@UF para exportar os relatórios excel no formato "correcto" - leia-se "o que mais nos facilita a vida".
 
 Em primeiro lugar abrir o menu "Preferências"
 
