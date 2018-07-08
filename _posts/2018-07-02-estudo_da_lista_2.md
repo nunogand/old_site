@@ -32,8 +32,8 @@ P04.R03 problemas > ICPC (selecionar penúltimo mês)
 * Seleccionar a última linha (Total) e apagá-la
 * Seleccionar todos os dados: colocar o cursor na célula A1, clicar em Ctrl+Shift+End e ajustar até termos todas as células com dados seleccionadas
 * Converter em tabela: Inserir - Tabela; na janela de diálogo que surge clicar na opção: "A minha tabela tem cabeçalhos"
-* Eliminar colunas inúteis
-  - Aliminar coluna A (Area ICPC) e D (Métrica) - uma de cada vez
+* Eliminar colunas inúteis:
+  - Eliminar coluna A (Area ICPC) e D (Métrica) - uma de cada vez
 * Renomear coluna 1 para "Nomenclatura"
 * Criar coluna "capitulo"
 * Criar a fórmula =ESQUERDA(Tabela1[[#Esta Linha];[ICPC]];1) na primeira linha de dados (D2)
