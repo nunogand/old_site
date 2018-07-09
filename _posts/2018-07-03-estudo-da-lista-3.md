@@ -68,6 +68,6 @@ Nova Página
   - Filtros: ICPC: TOP N (15) pelo valor Qtd de problemas -> aplicar filtro
 * Formato -> editar interacções
   - seleccionar primeiro gráfico; clicar em filtrar no segundo
-  
-  
-  <iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/VB3YgkUr10E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/VB3YgkUr10E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
