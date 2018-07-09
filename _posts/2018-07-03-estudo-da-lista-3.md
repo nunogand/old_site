@@ -21,13 +21,16 @@ Procedimentos para importar os dados da tabela excel para o PowerBI:
   - converter coluna utente para texto -> substituir a actual
 * fechar e aplicar
 
+
 Na interface principal do PowerBI:
 * Abrir Utentes
   * seleccionar idade; Criar grupos
   - tipo de grupo: "Discretizar" com tamanho 5
 
+
 * introduzir as measures/medidas (processo tedioso)
   * usar as medidas da página https://nunogand.com/articles/2018-07/estudo-da-lista-medidas
+
 
 * distribuiçao por sexos
   - gráfico circular
@@ -37,17 +40,21 @@ Na interface principal do PowerBI:
   - Mulher ![#FFC0CB](https://placehold.it/15/FFC0CB/000000?text=+) `#FFC0CB`
   - Homem  ![#00BFFF](https://placehold.it/15/00BFFF/000000?text=+) `#00BFFF`
 
+
 * Indices
   - Matriz
   -Valores: Burgdofer; Friz; Sauvy; Sundbarg
   -Formatar -> Valores -> Mostrar nas linhas (activar)
   - redimensionar
 
+
 * Repetir em nova matriz para os outros indices
+
 
 * Piramide etária:
   - importar visual personalizado (importar do marketplace)
   - procurar -> tornado -> Tornado Chart -> adicionar
+
 
 * Tornado Chart
   - grupo: idade (posições armazéns) - ou "bins"
@@ -55,17 +62,20 @@ Na interface principal do PowerBI:
   - valores: Utente (contagem de)
   - formatar as cores
 
+
 Nova Página
 * Gráfico de colunas empilhadas
   - eixo: capitulo
   - Valor: quantidade de problemas
   - formatar: etiquetas de dados: activo
 
+
 * Gráfico de colunas empilhadas
   - eixo: ICPC
   - Valor: quantidade de problemas
   - formatar: etiquetas de dados: activo
   - Filtros: ICPC: TOP N (15) pelo valor Qtd de problemas -> aplicar filtro
+
 * Formato -> editar interacções
   - seleccionar primeiro gráfico; clicar em filtrar no segundo
 
