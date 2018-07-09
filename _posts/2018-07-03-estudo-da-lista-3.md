@@ -69,4 +69,5 @@ Nova Página
 * Formato -> editar interacções
   - seleccionar primeiro gráfico; clicar em filtrar no segundo
   
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VB3YgkUr10E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  
+  <iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/VB3YgkUr10E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
