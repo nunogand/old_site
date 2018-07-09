@@ -27,15 +27,15 @@ Na interface principal do PowerBI:
   - tipo de grupo: "Discretizar" com tamanho 5
 
 * introduzir as measures/medidas (processo tedioso)
-  * usar as medidas da página
+  * usar as medidas da página https://nunogand.com/articles/2018-07/estudo-da-lista-medidas
 
 * distribuiçao por sexos
   - gráfico circular
   - Detalhes: Sexo
   - Valores: Sexo (Contagem de)
   - formatar cores de dados
-  - Mulher FFC0CB
-  - Homem 00BFFF
+  - Mulher ![#FFC0CB](https://placehold.it/15/FFC0CB/000000?text=+) `#FFC0CB`
+  - Homem  ![#00BFFF](https://placehold.it/15/00BFFF/000000?text=+) `#00BFFF`
 
 * Indices
   - Matriz
