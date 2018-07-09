@@ -70,4 +70,4 @@ Nova Página
   - seleccionar primeiro gráfico; clicar em filtrar no segundo
 
 
-<iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/VB3YgkUr10E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/VB3YgkUr10E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
