@@ -37,8 +37,8 @@ Na interface principal do PowerBI:
   - Detalhes: Sexo
   - Valores: Sexo (Contagem de)
   - formatar cores de dados
-  - Mulher ![#FFC0CB](https://placehold.it/15/FFC0CB/000000?text=+) `#FFC0CB`
-  - Homem  ![#00BFFF](https://placehold.it/15/00BFFF/000000?text=+) `#00BFFF`
+  - ![#FFC0CB](https://placehold.it/15/FFC0CB/000000?text=+) `#FFC0CB - Mulher`
+  - ![#00BFFF](https://placehold.it/15/00BFFF/000000?text=+) `#00BFFF - Homem`
 
 
 * Indices
@@ -80,4 +80,4 @@ Nova Página
   - seleccionar primeiro gráfico; clicar em filtrar no segundo
 
 
-<iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/VB3YgkUr10E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VB3YgkUr10E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
