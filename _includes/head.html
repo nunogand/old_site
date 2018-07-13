@@ -67,23 +67,10 @@ ga('send', 'pageview');
   <link rel="dns-prefetch" href="//nunogand.github.io/">
   
   <!-- CSS files -->
- <!--
-  <script>
-      var cb = function() {
-        var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
-        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(cb);
-      else window.addEventListener('load', cb);
-</script> -->
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://nunogand.com/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
- <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">-->
-  <!--<link href="{{ site.url }}/css/main.css" rel="stylesheet">-->
-<script type="text/javascript" src="https://raw.githubusercontent.com/filamentgroup/loadCSS/v2.0.1/src/cssrelpreload.js"></script>
+ 
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <link href="{{ site.url }}/css/main.css" rel="stylesheet">
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.url }}" />
 
