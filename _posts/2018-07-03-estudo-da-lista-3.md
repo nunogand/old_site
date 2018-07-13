@@ -29,7 +29,7 @@ Na interface principal do PowerBI:
 
 
 * introduzir as measures/medidas (processo tedioso)
-  * usar as medidas da página https://nunogand.com/articles/2018-07/estudo-da-lista-medidas
+  * usar as medidas da página [https://nunogand.com/articles/2018-07/estudo-da-lista-medidas](https://nunogand.com/articles/2018-07/estudo-da-lista-medidas)
 
 
 * distribuiçao por sexos
