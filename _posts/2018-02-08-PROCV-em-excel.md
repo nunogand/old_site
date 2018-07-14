@@ -3,10 +3,8 @@ layout: post
 title: Utilização da função PROCV
 excerpt: Exemplo prático da utilização da função PROCV com duas listagens de utentes
 date: 2018-02-08
-categories:
-  - Excel
-tags:
-  - Excel
+categories: [Excel]
+tags: [Excel]
 comments: false
 image:
   feature: header_excel.png
