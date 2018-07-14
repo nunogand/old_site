@@ -25,9 +25,10 @@ Relacionados
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-    <div class="tag-list">
-    <h3><a href="{{ site.baseurl }}{{ post.url }}" class="tag-group-title">{{ post.title }}</a></h3>
-    </div>
+<div class="tag-list">    
+    <div class="tag-group">
+    <h3 class="tag-group-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    </div></div>
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
     {% if maxRelatedCounter >= maxRelated %}
         {% break %}
