@@ -3,7 +3,7 @@ layout: post
 title: "Fontes gratuitas de imagens para utilização em sites"
 excerpt: "Uma lista, em constante actualização, apanhada daqui e dali, de alguns recursos interessantes"
 categories: [Webdesign]
-tags: [HTML código]
+tags: [HTML, código]
 comments: false
 image:
   feature: header_webdesign.jpg
