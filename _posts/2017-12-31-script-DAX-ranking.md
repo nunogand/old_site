@@ -4,7 +4,7 @@ title: "PowerBI - Dividir valores por condição"
 excerpt: "Experiência em DAX para seleccionar valores a partir de um slicer."
 date:   2017-12-30 08:10:10
 categories: [PowerBi]
-tags: [PowerBi, código]
+tags: [PowerBi código DAX]
 comments: false
 image:
   feature: header_powerbi.jpg
