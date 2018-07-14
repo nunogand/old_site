@@ -3,7 +3,7 @@ layout: post
 title: "Elementos que devem estar em &ltHEAD&gt"
 excerpt: "Uma lista, apanhada daqui e dali, de tudo o que pode figurar dentro da secção &ltHEAD&gt dos sites"
 categories: [Webdesign]
-tags: [HTML, código]
+tags: [HTML Webdesign código]
 comments: false
 image:
   feature: header_webdesign.jpg
