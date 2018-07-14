@@ -4,7 +4,7 @@ title: Como remover os kernels antigos em Ubuntu
 excerpt: "Procedimento para remover kernels não em uso (Ubuntu 17.10)"
 date:   2017-11-12 22:07:19
 categories: [Linux]
-tags: [linux Ubuntu kernel]
+tags: [linux, Ubuntu, kernel]
 comments: false
 image:
   feature: ubuntu_logo.png
