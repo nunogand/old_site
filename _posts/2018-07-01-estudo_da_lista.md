@@ -3,7 +3,7 @@ layout: post
 title: "Estudo da lista de utentes 1"
 excerpt: "Configuraçao do MIM@UF"
 categories: [PowerBi]
-tags: [PowerBi, código]
+tags: [PowerBi código]
 comments: false
 image:
   feature: header_powerbi.jpg
