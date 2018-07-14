@@ -4,7 +4,7 @@ title: Criação de script de actualização
 excerpt: "Criação de um simples atalho para evitar ter que estar sempre a digitar os comandos de actualização em Ubuntu"
 date:   2017-10-14 18:07:19
 categories: [Linux]
-tags: [Linux Ubuntu código]
+tags: [Linux, Ubuntu, código]
 comments: false
 image:
   feature: ubuntu_logo.png
