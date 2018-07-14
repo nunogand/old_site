@@ -3,7 +3,7 @@ layout: post
 title: "Estudo da lista de utentes 2"
 excerpt: "Criação das tabelas em excel"
 categories: [PowerBi]
-tags: [PowerBi, código]
+tags: [PowerBi código]
 comments: false
 image:
   feature: header_powerbi.jpg
