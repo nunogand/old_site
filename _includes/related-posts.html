@@ -26,7 +26,7 @@ Relacionados
 
     {% if sameTagCount >= minCommonTags %}
     <div class="tag-list">
-    <h4><a href="{{ site.baseurl }}{{ post.url }}" class="tag-group-title">{{ post.title }}{{ commonTags }}</a></h4>
+    <h3><a href="{{ site.baseurl }}{{ post.url }}" class="tag-group-title">{{ post.title }}</a></h3>
     </div>
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
     {% if maxRelatedCounter >= maxRelated %}
