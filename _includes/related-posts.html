@@ -1,4 +1,6 @@
-##Relacionados:
+<a class="btn">
+Relacionados
+</a>
 
 {% assign maxRelated = 5 %}
 
@@ -23,7 +25,7 @@
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-    <div>
+    <div class="tag-list">
     <h4><a href="{{ site.baseurl }}{{ post.url }}" class="tag-group-title">{{ post.title }}{{ commonTags }}</a></h4>
     </div>
     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
