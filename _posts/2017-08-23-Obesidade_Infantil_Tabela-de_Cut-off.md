@@ -13,6 +13,7 @@ comments: false
 São apresentadas apenas as colunas de IMC equivalente a 18,5; 25; 30; 35
 
 |  |  | Rapazes | Raparigas |
+|---|:---:||:---:|
 |  |  | IMC (kg/m²) aos 18 anos |
 | Idade (meses) | Idade (Anos) | 18,5 | 25 | 30 | 35 | 18,5 | 25 | 30 | 35 |
 | 24 | 2 | 15,24 | 18,36 | 19,99 | 21,2 | 14,96 | 18,09 | 19,81 | 21,13 |
