@@ -8,7 +8,7 @@ tags: [Obesidade Infantil]
 comments: false
 ---
 
-Tabela de cut-offs para classificar Obesidade Infantil - [24-216] meses
+# Tabela de cut-offs para classificar Obesidade Infantil - [24-216] meses
 
 São apresentadas apenas as colunas de IMC equivalente a 18,5; 25; 30; 35
 
@@ -208,3 +208,6 @@ São apresentadas apenas as colunas de IMC equivalente a 18,5; 25; 30; 35
 | 214 | 17,83 | 18,43 | 24,91 | 29,9 | 34,9 | 18,46 | 24,95 | 29,95 | 34,95 |
 | 215 | 17,92 | 18,46 | 24,96 | 29,95 | 34,95 | 18,48 | 24,98 | 29,98 | 34,98 |
 | 216 | 18 | 18,5 | 25 | 30 | 35 | 18,5 | 25 | 30 | 35 |
+
+
+**Fonte:** Cole, T. J. and Lobstein, T. (2012), Extended international BMI cut‐offs. Pediatric Obesity, 7: 284-294. doi:10.1111/j.2047-6310.2012.00064.x
