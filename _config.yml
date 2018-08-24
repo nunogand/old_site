@@ -12,6 +12,13 @@ author: Nuno Rodrigues
 
 #
 ###################################
+# Remote theme
+####################################
+#
+remote_theme: artemsheludko/flexible-jekyll
+
+#
+###################################
 # Jekyll configuration
 ####################################
 #
