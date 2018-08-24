@@ -2,7 +2,7 @@
 layout: post
 title: Smog detector - lista de material
 excerpt: "Listagem para detector de partículas em suspensão na atmosfera"
-date:   2018-08-24 13:00:19
+date:   2018-08-24
 categories: [Raspberry]
 tags: [Raspberry]
 comments: false
