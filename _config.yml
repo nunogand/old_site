@@ -94,3 +94,5 @@ plugins:
 logo: logo_main.png
 lang: pt_PT
 future: true
+
+exclude: ["_data/index", "_includes", "_layouts", "_sass", "css", "fonts", "js"]
