@@ -8,8 +8,6 @@ tags: [Obesidade Infantil]
 comments: false
 ---
 
-# Tabela de cut-offs para classificar Obesidade Infantil - [24-216] meses
-
 São apresentadas apenas as colunas de IMC equivalente a 18,5; 25; 30; 35
 
 |  |  | Rapazes | Raparigas |
