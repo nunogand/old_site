@@ -12,13 +12,6 @@ author: Nuno Rodrigues
 
 #
 ###################################
-# Remote theme
-####################################
-#
-remote_theme: artemsheludko/flexible-jekyll
-
-#
-###################################
 # Jekyll configuration
 ####################################
 #
@@ -91,11 +84,6 @@ owner:
 #
 plugins:
   - jekyll-seo-tag
-  - jekyll-paginate
-paginate: 8
-paginate_path: "/page/:num"
 logo: logo_main.png
 lang: pt_PT
 future: true
-
-exclude: ["_data/index", "_includes", "_layouts", "_sass", "css", "fonts", "js"]
