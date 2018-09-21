@@ -84,6 +84,10 @@ owner:
 #
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+  
+paginate: 8
+paginate_path: "/page/:num"
 logo: logo_main.png
 lang: pt_PT
 future: true
